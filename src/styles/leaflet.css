@@ -1,0 +1,16 @@
+.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    background-clip: padding-box;
+}
+.leaflet-touch .leaflet-bar a:first-child {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.leaflet-touch .leaflet-control-zoom-in, .leaflet-touch .leaflet-control-zoom-out {
+    font-size: 18px;
+}
+.leaflet-control-zoom-in, .leaflet-control-zoom-out {
+    font: 18px 'Lucida Console', Monaco, monospace;
+    text-indent: 1px;
+}
